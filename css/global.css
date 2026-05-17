@@ -1,0 +1,24 @@
+/* Define base styles used everywhere. */
+
+body {
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(
+        180deg,
+        #0F172A 0%,
+        #1E1B4B 45%,
+        #633625 100%
+    );
+
+  color: var(--text-primary);
+}
+
+/* Links inherit text color naturallly unless overriden */
+a {
+  color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

@@ -1,0 +1,28 @@
+:root {
+  --primary: #4C1D95;
+  --secondary: #1F2937;
+  --tertiary: #312E81;
+
+  --accent: #F59E0B;
+  --warning: #DC2626;
+
+  --bg-primary: #111827;
+  --bg-secondary: #1F2937;
+
+  --text-primary: #F9FAFB;
+  --text-secondary: #D1D5DB;
+
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  --border-radius: 12px;
+}
+
+.light-mode {
+  --bg-primary: #F8F5F2;
+  --bg-secondary: #EDE7E3;
+
+  --text-primary: #1F2937;
+  --text-secondary: #4B5563;
+}

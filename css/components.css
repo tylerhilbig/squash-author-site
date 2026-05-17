@@ -1,0 +1,94 @@
+/* Style Reusable UI components here (e.g. buttons, cards, forms, alerts) */
+
+/* NAVBAR */
+
+/* Logo + UL */
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 1rem;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+
+    font-size: 1.5rem;
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    
+}
+
+/* Footer */
+
+.footer {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    text-align: center;
+    padding: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+    border-radius: var(--border-radius);
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+/* UL Element */
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 3rem;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+    
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+
+/* TITLE */
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Books */
+.book-cover {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.book-description {
+    flex: start;
+    margin-top: var(--spacing-sm);
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+    font-size: 1.5rem;
+    text-align: left;
+
+}

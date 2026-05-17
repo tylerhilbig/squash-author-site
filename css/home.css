@@ -1,0 +1,19 @@
+#featured-release {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+#featured-release-text {
+    flex: 1;
+    font-size: 1.5rem;
+    padding: var(--spacing-md);
+}
