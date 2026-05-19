@@ -10,47 +10,78 @@
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/components.css" />
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/books.css" />
 
 </head>
 
 <body>
-    <!-- Navbar -->
-    <div>
-        <a href="index.html">Home</a>
-        <a href="books.html">Books</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </div>
+     <!-- Navbar -->
+    <header>
+        <div class="container">
+            <nav class="site-nav">
+
+                <!-- <div class="logo">
+                    <img src="" alt="Logo">
+                </div> -->
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
 
     <!-- Collections -->
     <div id="collections">
-        <h1>Discover the World of Squash</h1>
+        <h1 class="title">Discover the World of Squash</h1>
 
-        <h2>Series 1</h2>
-        <p>Description of Series 1</p>
-        <div class="book-covers">
-            <img src="" alt="Book Cover 1">
-            <img src="" alt="Book Cover 2">
-            <img src="" alt="Book Cover 3">
-        </div>
-        
-
-        <h2>series 2</h2>
-        <p>Description of Series 2</p>
-        <div class="book-covers">
-            <img src="" alt="Book Cover 1">
-            <img src="" alt="Book Cover 2">
-            <img src="" alt="Book Cover 3">
-        </div>
-        
-
-        <h2>series 3</h2>
-        <p>Description of Series 3</p>
-        <div class="book-covers">
-            <img src="" alt="Book Cover 1">
-            <img src="" alt="Book Cover 2">
+        <div id="library">
+            <div class="series">
+                <h2>Stormlight Archive</h2>
+                <p class="library-desc">On a world battered by endless storms and ancient wars, unlikely heroes begin to 
+                    uncover long-buried secrets that could change the fate of civilization itself. 
+                    The Stormlight Archive blends epic battles, deep political intrigue, mysterious 
+                    magic, and unforgettable character journeys into a sweeping fantasy saga about honor, 
+                    sacrifice, and the power of hope in the face of impossible odds.
+                </p>
+                <div class="book-covers">
+                    <img class="book-cover" src="assets/images/books/way_of_kings_cover.jpg" alt="Book Cover 1">
+                    <img class="book-cover" src="assets/images/books/rhythm_of_war_cover.jpg" alt="Book Cover 2">
+                    <img class="book-cover" src="assets/images/books/oathbringer_cover.jpg" alt="Book Cover 3">
+                </div>
+            </div>
+            <div class="series">
+                <h2>Twilight</h2>
+                <p class="library-desc">When a quiet teenager moves to a small, rainy town in the Pacific Northwest, she 
+                    finds herself drawn into a mysterious world hidden just beneath the surface of 
+                    ordinary life. Twilight is a romantic fantasy series filled with suspense, supernatural 
+                    secrets, and intense emotional connections that explore love, danger, and the challenges 
+                    of belonging.
+                </p>
+                <div class="book-covers">
+                    <img class="book-cover"src="assets/images/books/twilight_cover.jpg" alt="Book Cover 1">
+                    <img class="book-cover"src="assets/images/books/new_moon_cover.jpg" alt="Book Cover 2">
+                    <img class="book-cover"src="assets/images/books/eclipse_cover.jpg" alt="Book Cover 3">
+                </div>
+            </div>
+            <div class="series">
+                <h2>Percy Jackson & the Olympians</h2>
+                <p class="library-desc">What if the gods of ancient mythology were still alive today—and their children 
+                    were walking among us? Percy Jackson and the Olympians follows a modern teenager 
+                    who discovers he has a powerful connection to the world of Greek gods and monsters. 
+                    Packed with humor, fast-paced adventure, and mythological twists, the series delivers 
+                    an exciting journey of friendship, courage, and self-discovery.
+                </p>
+                <div class="book-covers">
+                    <img class="book-cover"src="assets/images/books/the_lightning_thief_cover.jpg" alt="Book Cover 1">
+                    <img class="book-cover"src="assets/images/books/the_sea_of_monsters_cover.jpg" alt="Book Cover 2">
+                </div>
+            </div>
         </div>
     </div>
     
