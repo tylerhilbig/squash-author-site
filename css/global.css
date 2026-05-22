@@ -22,3 +22,8 @@ img {
     max-width: 100%;
     display: block;
 }
+
+
+.accent-word {
+    color: var(--accent);
+}
