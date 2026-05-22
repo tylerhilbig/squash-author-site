@@ -26,7 +26,8 @@
     text-align: center;
     padding: var(--spacing-md);
     margin-top: var(--spacing-lg);
-    border-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
 }
 
 .social-media-icons {
@@ -37,9 +38,6 @@
     padding: 0;
     margin: 0;
 }
-
-
-
 
 
 
@@ -81,6 +79,11 @@
 
     border-radius: 6px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.book-cover:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .book-description {

@@ -1,0 +1,61 @@
+#about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: var(--spacing-lg);
+}
+
+#author-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    max-width: 85%;
+
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+
+    font-size: 1.25rem;
+}
+
+#author-about-portrait {
+    max-width: 400px;
+    height: auto;
+    border-radius: var(--border-radius);
+}
+
+#interview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 85%;
+
+    background: var(--bg-secondary);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+
+    font-size: 1.25rem;
+
+    gap: var(--spacing-md);
+    max-width: 85%;
+}
+
+#interview h2 {
+    font-size: 1.75rem;
+    color: var(--half-accent);
+}
+
+#interview p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    
+    max-width: 85%;
+}
