@@ -15,7 +15,6 @@
     font-size: 1.5rem;
     border-bottom-left-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
-    
 }
 
 /* UL Element */
@@ -37,7 +36,6 @@
 .nav-links a:hover {
     color: var(--accent);
 }
-
 
 /* TITLE */
 
@@ -70,7 +68,6 @@
     padding-right: var(--spacing-md);
     font-size: 1.5rem;
     text-align: left;
-
 }
 
 
@@ -96,11 +93,10 @@
     margin: 0;
 }
 
-.social-media-icons li{
+.social-media-icons li {
     width: 48px;
     height: 48px;
     flex: 0 0 auto;
-    
 }
 
 .social-media-icons svg {
@@ -115,4 +111,5 @@
     transform: scale(1.1);
     transition: transform 0.3s ease;
     fill: var(--half-accent);
+    cursor: pointer;
 }

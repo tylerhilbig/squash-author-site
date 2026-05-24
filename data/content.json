@@ -1,0 +1,66 @@
+{
+  "newRelease": {
+    "title": "",
+    "description": ""
+  },
+
+  "booksInProgress": [
+    {
+      "title": "",
+      "progress": 0
+    },
+    {
+      "title": "",
+      "progress": 0
+    },
+    {
+      "title": "",
+      "progress": 0
+    }
+  ],
+
+  "series": [
+    {
+      "title": "",
+      "description": "",
+      "books": [
+        {
+          "title": "",
+          "coverImage": ""
+        }
+      ]
+    },
+    {
+      "title": "",
+      "description": "",
+      "books": [
+        {
+          "title": "",
+          "coverImage": ""
+        }
+      ]
+    },
+    {
+      "title": "",
+      "description": "",
+      "books": [
+        {
+          "title": "",
+          "coverImage": ""
+        }
+      ]
+    }
+  ],
+
+  "author": {
+    "photo": "",
+    "bio": ""
+  },
+
+  "qa": [
+    {
+      "question": "",
+      "answer": ""
+    }
+  ]
+}
