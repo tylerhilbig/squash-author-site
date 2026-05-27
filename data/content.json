@@ -1,28 +1,39 @@
 {
   "newRelease": {
-    "title": "",
-    "description": ""
+    "title": "The Hobbit",
+    "description": "A fantasy novel by J.R.R. Tolkein.",
+    "newReleaseCover": ""
   },
 
   "booksInProgress": [
     {
-      "title": "",
-      "progress": 0
+      "title": "Some book title",
+      "progress": 65
     },
     {
-      "title": "",
-      "progress": 0
+      "title": "Another book title",
+      "progress": 20
     },
     {
-      "title": "",
-      "progress": 0
+      "title": "Yet another book title",
+      "progress": 10
     }
   ],
 
-  "series": [
+  "library": [
     {
-      "title": "",
-      "description": "",
+      "title": "A book series title",
+      "description": "An epic fantasy book series about vegetables fighting crime",
+      "books": [
+        {
+          "title": "veggie book 1",
+          "coverImage": ""
+        }
+      ]
+    },
+    {
+      "title": "A Romance Series",
+      "description": "A story of love, vampires, and forbidden romance.",
       "books": [
         {
           "title": "",
@@ -31,18 +42,8 @@
       ]
     },
     {
-      "title": "",
-      "description": "",
-      "books": [
-        {
-          "title": "",
-          "coverImage": ""
-        }
-      ]
-    },
-    {
-      "title": "",
-      "description": "",
+      "title": "An Educational Book Series",
+      "description": "A series of books designed to educate readers on mythology, history, and science.",
       "books": [
         {
           "title": "",
@@ -53,14 +54,22 @@
   ],
 
   "author": {
-    "photo": "",
-    "bio": ""
+    "photo": "assets/images/books/hobbit_book_cover.png",
+    "bio": "Just a goober named Squash who writes books. I like to write about vegetables fighting crime."
   },
 
   "qa": [
     {
-      "question": "",
-      "answer": ""
+      "question": "Do you like ice cream?",
+      "answer": "no way, I'm a vegetable!"
+    },
+    {
+      "question": "What is your favorite vegetable?",
+      "answer": "Squash, of course!"
+    },
+    {
+      "question": "What is your favorite book?",
+      "answer": "The Hobbit by J.R.R. Tolkein."
     }
   ]
 }

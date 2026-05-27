@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/about.css" />
 
 </head>
-<body>
+<body data-page="about">
 
      <!-- Navbar -->
     <header>
@@ -40,7 +40,7 @@
        <h1 class="title">Hi, my name is <span class="accent-word">Josh</span></h1>
        <div id="about-content">
             <div id="author-info">
-                <p>&emsp;Josh has always been drawn to storytelling, from the myths and epics of the ancient world to sprawling fantasy realms filled with intrigue, 
+                <p id="author-bio">&emsp;Josh has always been drawn to storytelling, from the myths and epics of the ancient world to sprawling fantasy realms filled with intrigue, 
                 adventure, and discovery. With a background in Classics and an emphasis in Latin, his writing is deeply influenced by ancient history, language, 
                 mythology, and the enduring themes woven throughout classical literature.
                 Alongside his literary background, he also has extensive experience in technology and software development. With a programming certificate and 
@@ -55,22 +55,28 @@
                 Outside of writing, he enjoys studying history and mythology, experimenting with game development projects, streaming his gaming sessions,exploring new technologies, 
                 nd continuing to build the kinds of worlds that first inspired him to become an author.
                 </p>
-                <img id="author-about-portrait" src="assets/images/author/josh2.jpg" alt="Author Photo">
+                <img id="author-photo"id="author-about-portrait" src="assets/images/author/josh2.jpg" alt="Author Photo">
              </div>
        
 
             <div id="interview">
                 <h2>Q&A</h2>
-                <p><strong><span class="question">What inspired you to become a writer?</span></strong><br>
+                <p id="qa-question-1" class="question"><strong>What inspired you to become a writer?</strong></p>
+                <p id="qa-answer-1">
                     I've always been fascinated by stories and the power they have to transport us to different worlds, explore complex ideas, and connect us on a deep emotional level. 
-                    From a young age, I found myself drawn to fantasy and science fiction, where imagination knows no bounds. Writing became a way for me to create my own worlds and share the stories that lived in my head with others.</p>
+                    From a young age, I found myself drawn to fantasy and science fiction, where imagination knows no bounds. Writing became a way for me to create my own worlds and share the stories that lived in my head with others.
+                </p>
 
-                <p><strong><span class="question">What are your biggest influences?</span></strong><br>
+                <p id="qa-question-2" class="question"><strong>What are your biggest influences?</strong></p>
+                <p id="qa-answer-2">
                     My influences are quite varied, but I would say that classic literature, mythology, and modern speculative fiction have all played a significant role in shaping my writing. 
-                    Authors like J.R.R. Tolkien, Ursula K. Le Guin, and Brandon Sanderson have been major inspirations for me, as well as the rich tapestry of myths and legends from around the world.</p>
+                    Authors like J.R.R. Tolkein, Ursula K. Le Guin, and Brandon Sanderson have been major inspirations for me, as well as the rich tapestry of myths and legends from around the world.
+                </p>
 
-                <p><strong><span class="question">What can readers expect from your work?</span></strong><br>
-                    Readers can expect immersive worlds filled with memorable characters, layered histories, and emotionally grounded stories. I strive to create narratives that explore human ambition, morality, and the tension between progress and tradition. Whether it's an epic fantasy saga or a dystopian tale, I aim to craft stories that resonate on both an intellectual and emotional level.</p>
+                <p id="qa-question-3" class="question"><strong>What can readers expect from your work?</strong></p>
+                <p id="qa-answer-3">
+                    Readers can expect immersive worlds filled with memorable characters, layered histories, and emotionally grounded stories. I strive to create narratives that explore human ambition, morality, and the tension between progress and tradition. Whether it's an epic fantasy saga or a dystopian tale, I aim to craft stories that resonate on both an intellectual and emotional level.
+                </p>
             </div>
        </div>
        
@@ -94,6 +100,6 @@
     </footer>
 
 
-    
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>

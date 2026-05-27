@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/home.css" />
 
 </head>
-<body>
+<body data-page="home">
 
     <!-- Navbar -->
     <header>
@@ -41,11 +41,11 @@
             <h1 class="title">Welcome to the Squash Garden</h1>
 
             <div id="featured-release">
-                <img class="book-cover" src="assets/images/books/hobbit_book_cover.png" alt="Book Cover 1">
+                <img class="book-cover" id="new-release-cover" src="assets/images/books/hobbit_book_cover.png" alt="Book Cover 1">
 
                 <div id="featured-release-text">
                     <h2>Take a look at the Newest Release</h2>
-                    <p class="book-description">The Hobbit, by J.R.R. Tolkien, is a classic fantasy novel about the home-loving hobbit Bilbo Baggins, who 
+                    <p class="book-description" id="new-release-description">The Hobbit, by J.R.R. Tolkien, is a classic fantasy novel about the home-loving hobbit Bilbo Baggins, who 
                         is recruited by the wizard Gandalf and a company of dwarves to help reclaim their treasure from the 
                         dragon Smaug in the Lonely Mountain. The story follows Bilbo's reluctant journey, during which he finds 
                         a magic ring, encounters creatures like goblins and giant spiders, and undergoes a personal transformation 
@@ -59,16 +59,19 @@
         <div id="progress-pies" class="container">
             <ul id="progress-list">
                 <li>
-                    <h3>Book 1</h3>
-                    <p>Great Gatsby</p>
+                    <!-- <h3>Book 1</h3> -->
+                     <p id="pie-chart-1">O</p>
+                    <p id="in-progress-1">Great Gatsby</p>
                 </li>
                 <li>
-                    <h3>Book 2</h3>
-                    <p>To Kill a Mockingbird</p>
+                    <!-- <h3>Book 2</h3> --> 
+                     <p id="pie-chart-2">O</p>
+                    <p id="in-progress-2">To Kill a Mockingbird</p>
                 </li>
                 <li>
-                    <h3>Book 3</h3>
-                    <p>1984</p>
+                    <!-- <h3>Book 3</h3> -->
+                     <p id="pie-chart-3">O</p>
+                    <p id="in-progress-3"   >1984</p>
                 </li>
             </ul>
 
@@ -92,7 +95,7 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script type="module" src="js/app.js"></script>
     
 </body>
 </html>
