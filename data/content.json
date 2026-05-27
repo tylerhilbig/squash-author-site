@@ -1,40 +1,46 @@
 {
-  "newRelease": {
-    "title": "The Hobbit",
-    "description": "A fantasy novel by J.R.R. Tolkein.",
-    "newReleaseCover": ""
-  },
-
-  "booksInProgress": [
-    {
-      "title": "Some book title",
-      "progress": 65
+    "socialMedia": {
+        "instagram": "https://coastalcocktails.com/drinks/#cucumber-collins",
+        "youtube": "https://coastalcocktails.com/drinks/#cucumber-collins",
+        "tiktok": "https://coastalcocktails.com/drinks/#cucumber-collins",
+        "linkedin": "https://coastalcocktails.com/drinks/#cucumber-collins"
     },
-    {
-      "title": "Another book title",
-      "progress": 20
-    },
-    {
-      "title": "Yet another book title",
-      "progress": 10
-    }
-  ],
 
-  "library": [
+    "newRelease": {
+        "description": "A fantasy novel by J.R.R. Tolkein.",
+        "newReleaseCover": ""
+    },
+
+    "booksInProgress": [
+        {
+        "title": "Some book title",
+        "progress": 65
+        },
+        {
+        "title": "Another book title",
+        "progress": 20
+        },
+        {
+        "title": "Yet another book title",
+        "progress": 10
+        }
+    ],
+
+    "library": [
     {
-      "title": "A book series title",
-      "description": "An epic fantasy book series about vegetables fighting crime",
-      "books": [
+        "title": "A book series title",
+        "description": "An epic fantasy book series about vegetables fighting crime",
+        "books": [
         {
           "title": "veggie book 1",
           "coverImage": ""
         }
-      ]
+        ]
     },
     {
-      "title": "A Romance Series",
-      "description": "A story of love, vampires, and forbidden romance.",
-      "books": [
+        "title": "A Romance Series",
+        "description": "A story of love, vampires, and forbidden romance.",
+        "books": [
         {
           "title": "",
           "coverImage": ""
@@ -42,9 +48,9 @@
       ]
     },
     {
-      "title": "An Educational Book Series",
-      "description": "A series of books designed to educate readers on mythology, history, and science.",
-      "books": [
+        "title": "An Educational Book Series",
+        "description": "A series of books designed to educate readers on mythology, history, and science.",
+        "books": [
         {
           "title": "",
           "coverImage": ""
@@ -53,23 +59,23 @@
     }
   ],
 
-  "author": {
-    "photo": "assets/images/books/hobbit_book_cover.png",
-    "bio": "Just a goober named Squash who writes books. I like to write about vegetables fighting crime."
-  },
+    "author": {
+        "photo": "assets/images/author/josh.jpg",
+        "bio": "Just a goober named Squash who writes books. I like to write about vegetables fighting crime."
+    },
 
-  "qa": [
-    {
-      "question": "Do you like ice cream?",
-      "answer": "no way, I'm a vegetable!"
-    },
-    {
-      "question": "What is your favorite vegetable?",
-      "answer": "Squash, of course!"
-    },
-    {
-      "question": "What is your favorite book?",
-      "answer": "The Hobbit by J.R.R. Tolkein."
-    }
-  ]
+    "qa": [
+      {
+          "question": "Do you like ice cream?",
+          "answer": "no way, I'm a vegetable!"
+      },
+      {
+          "question": "What is your favorite vegetable?",
+          "answer": "Squash, of course!"
+      },
+      {
+          "question": "What is your favorite book?",
+          "answer": "The Hobbit by J.R.R. Tolkein."
+      }
+    ]
 }

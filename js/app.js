@@ -21,22 +21,37 @@ console.dir(document);
     }
     });
 
+function renderFooter(data) {
+    console.log("Rendering footer with data:", data);
+    console.log("Social media links:", data.socialMedia.instagram);
+    document.getElementById("instagram-link").href = data.socialMedia.instagram;
+    document.getElementById("youtube-link").href = data.socialMedia.youtube;
+    document.getElementById("tiktok-link").href = data.socialMedia.tiktok;
+    document.getElementById("linkedin-link").href = data.socialMedia.linkedin;
+}
+
 function renderPage(data) {
 
     if (document.body.dataset.page === "home") {
-        console.log("Home Page Detected");
+        
         renderHome(data);
     }
 
-    console.log("docment.body.dataset.page:", document.body.dataset.page);
+
     if (document.body.dataset.page === "books") {
-        console.log("Books Page Detected");
+        
         renderBooks(data);
     }
 
     if (document.body.dataset.page === "about") {
-        console.log("About Page Detected");
+        
         renderAbout(data);
     }
 
+    // if (document.body.dataset.page === "contact") {
+        
+    //     renderContact(data);
+    // }
+
+    renderFooter(data); 
 }
