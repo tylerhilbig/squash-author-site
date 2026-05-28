@@ -14,15 +14,15 @@
     "booksInProgress": [
         {
         "title": "Some book title",
-        "progress": 65
+        "progress": 100
         },
         {
         "title": "Another book title",
-        "progress": 20
+        "progress": 10
         },
         {
         "title": "Yet another book title",
-        "progress": 10
+        "progress": 30
         }
     ],
 

@@ -21,6 +21,48 @@ console.dir(document);
     }
     });
 
+function generatePieCharts(data) {
+    const ctx = document.getElementById("myPieChart1");
+    const ctx2 = document.getElementById("myPieChart2");
+    const ctx3 = document.getElementById("myPieChart3");
+
+    new Chart(ctx, {
+    type: "doughnut",
+    data: {
+        datasets: [{
+        data: [data.booksInProgress[0].progress, 100 - data.booksInProgress[0].progress],
+        backgroundColor: ["#F59E0B", "#757881"],
+        borderWidth: 0,
+        cutout: "60%"
+        }]
+    }
+    });
+    
+    new Chart(ctx2, {
+        type: "doughnut",
+        data: {
+            datasets: [{
+            data: [data.booksInProgress[1].progress, 100 - data.booksInProgress[1].progress],
+            backgroundColor: ["#F59E0B", "#757881"],
+            borderWidth: 0,
+            cutout: "60%"
+            }]
+        }
+    });
+
+    new Chart(ctx3, {
+        type: "doughnut",
+        data: {
+            datasets: [{
+            data: [data.booksInProgress[2].progress, 100 - data.booksInProgress[2].progress],
+            backgroundColor: ["#F59E0B", "#757881"],
+            borderWidth: 0,
+            cutout: "60%"
+            }]
+        }
+    });
+}
+
 function renderFooter(data) {
     console.log("Rendering footer with data:", data);
     console.log("Social media links:", data.socialMedia.instagram);
@@ -33,7 +75,7 @@ function renderFooter(data) {
 function renderPage(data) {
 
     if (document.body.dataset.page === "home") {
-        
+        generatePieCharts(data);
         renderHome(data);
     }
 

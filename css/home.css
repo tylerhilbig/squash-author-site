@@ -24,8 +24,11 @@
     background-color: var(--bg-secondary);
     padding: var(--spacing-md) var(--spacing-lg);
     border-radius: var(--border-radius);
+}
 
-    
+#progress-list canvas {
+    width: 120px !important;
+    height: 120px !important;
 }
 
 #progress-pies ul {
