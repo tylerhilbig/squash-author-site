@@ -1,6 +1,7 @@
 import { renderHome } from "./home.js";
 import { renderBooks } from "./books.js";
 import { renderAbout } from "./about.js";
+import { renderContact } from "./contact.js";
 
 console.dir(document);
 
@@ -79,15 +80,17 @@ function renderPage(data) {
         renderHome(data);
     }
 
-
     if (document.body.dataset.page === "books") {
-        
         renderBooks(data);
     }
 
     if (document.body.dataset.page === "about") {
-        
         renderAbout(data);
+    }
+
+    if (document.body.dataset.page === "contact") {
+        console.log("Contact page detected, rendering contact content");
+        renderContact(data);
     }
 
     // if (document.body.dataset.page === "contact") {

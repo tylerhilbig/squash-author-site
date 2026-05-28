@@ -14,7 +14,9 @@
 
 </head>
 
-<body>
+<body data-page="contact">
+
+    <div class="page-container">
 
     <!-- Navbar -->
     <header>
@@ -30,25 +32,33 @@
         </div>
     </header>
 
+    <main>
+
     <div id="contact-section">
         <h1 class="title">Get in Touch</h1>
-        <p class="contact-description">Whether you have questions about my books, want to share your thoughts, or just want to say hi, I'd love to hear from you! 
+        <p id="contact-description">Whether you have questions about my books, want to share your thoughts, or just want to say hi, I'd love to hear from you! 
             Feel free to reach out through any of the channels below, and I'll do my best to get back to you as soon as I can.</p>
 
         <div class="form-container">
             <form id="contact-form">
+
                 <label for="name">Name</label>
-                <input class="form-input" type="text" id="name" placeholder="Your Name">
+                <input class="form-input" type="text" id="name" name="name" placeholder="Your Name" required>
+
                 <label for="email">Email</label>
-                <input class="form-input" type="email" id="email" placeholder="Your Email">
+                <input class="form-input" type="email" id="email" name="email" placeholder="Your Email" required>
+
                 <label for="message">Message</label>
-                <textarea class="form-input" id="message" placeholder="Your Message"></textarea>
+                <textarea class="form-input" id="message" placeholder="Your Message" required></textarea>
+
                 <button class="form-btn" type="submit">Send</button>
+
             </form>
         </div>
         
     </div>
 
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -66,5 +76,8 @@
         </div>
     </footer>
 
+    </div>
+
+    <script type="module" src="js/app.js"></script>
 
 </body>
