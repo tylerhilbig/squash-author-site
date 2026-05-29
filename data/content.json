@@ -1,66 +1,85 @@
 {
-  "newRelease": {
-    "title": "",
-    "description": ""
-  },
+    "socialMedia": {
+        "instagram": "https://coastalcocktails.com/drinks/#cucumber-collins",
+        "youtube": "https://coastalcocktails.com/drinks/#cucumber-collins",
+        "tiktok": "https://coastalcocktails.com/drinks/#cucumber-collins",
+        "linkedin": "https://coastalcocktails.com/drinks/#cucumber-collins"
+    },
 
-  "booksInProgress": [
+    "newRelease": {
+        "description": "A fantasy novel by J.R.R. Tolkein.",
+        "newReleaseCover": ""
+    },
+
+    "booksInProgress": [
+        {
+        "title": "Some book title",
+        "progress": 100
+        },
+        {
+        "title": "Another book title",
+        "progress": 10
+        },
+        {
+        "title": "Yet another book title",
+        "progress": 30
+        }
+    ],
+
+    "library": [
     {
-      "title": "",
-      "progress": 0
+        "title": "A book series title",
+        "description": "An epic fantasy book series about vegetables fighting crime",
+        "books": [
+        {
+          "title": "veggie book 1",
+          "coverImage": ""
+        }
+        ]
     },
     {
-      "title": "",
-      "progress": 0
+        "title": "A Romance Series",
+        "description": "A story of love, vampires, and forbidden romance.",
+        "books": [
+        {
+          "title": "",
+          "coverImage": ""
+        }
+      ]
     },
     {
-      "title": "",
-      "progress": 0
+        "title": "An Educational Book Series",
+        "description": "A series of books designed to educate readers on mythology, history, and science.",
+        "books": [
+        {
+          "title": "",
+          "coverImage": ""
+        }
+      ]
     }
   ],
 
-  "series": [
-    {
-      "title": "",
-      "description": "",
-      "books": [
-        {
-          "title": "",
-          "coverImage": ""
-        }
-      ]
+    "author": {
+        "photo": "assets/images/author/josh.jpg",
+        "bio": "Just a goober named Squash who writes books. I like to write about vegetables fighting crime."
     },
-    {
-      "title": "",
-      "description": "",
-      "books": [
-        {
-          "title": "",
-          "coverImage": ""
-        }
-      ]
-    },
-    {
-      "title": "",
-      "description": "",
-      "books": [
-        {
-          "title": "",
-          "coverImage": ""
-        }
-      ]
-    }
-  ],
 
-  "author": {
-    "photo": "",
-    "bio": ""
-  },
+    "qa": [
+      {
+          "question": "Do you like ice cream?",
+          "answer": "no way, I'm a vegetable!"
+      },
+      {
+          "question": "What is your favorite vegetable?",
+          "answer": "Squash, of course!"
+      },
+      {
+          "question": "What is your favorite book?",
+          "answer": "The Hobbit by J.R.R. Tolkein."
+      }
+    ],
 
-  "qa": [
-    {
-      "question": "",
-      "answer": ""
+    "contact": {
+      "description": "Please send me a message bro, I want to hear from you! And you should buy my books too, they are really good!"
     }
-  ]
 }
