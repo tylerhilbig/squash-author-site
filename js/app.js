@@ -1,7 +1,7 @@
-import { renderHome } from "./home.js";
+import { renderHome, generatePieCharts } from "./home.js";
 import { renderBooks } from "./books.js";
 import { renderAbout } from "./about.js";
-import { renderContact } from "./contact.js";
+import { renderContact, getForm } from "./contact.js";
 
 console.dir(document);
 
@@ -22,47 +22,6 @@ console.dir(document);
     }
     });
 
-function generatePieCharts(data) {
-    const ctx = document.getElementById("myPieChart1");
-    const ctx2 = document.getElementById("myPieChart2");
-    const ctx3 = document.getElementById("myPieChart3");
-
-    new Chart(ctx, {
-    type: "doughnut",
-    data: {
-        datasets: [{
-        data: [data.booksInProgress[0].progress, 100 - data.booksInProgress[0].progress],
-        backgroundColor: ["#F59E0B", "#757881"],
-        borderWidth: 0,
-        cutout: "60%"
-        }]
-    }
-    });
-    
-    new Chart(ctx2, {
-        type: "doughnut",
-        data: {
-            datasets: [{
-            data: [data.booksInProgress[1].progress, 100 - data.booksInProgress[1].progress],
-            backgroundColor: ["#F59E0B", "#757881"],
-            borderWidth: 0,
-            cutout: "60%"
-            }]
-        }
-    });
-
-    new Chart(ctx3, {
-        type: "doughnut",
-        data: {
-            datasets: [{
-            data: [data.booksInProgress[2].progress, 100 - data.booksInProgress[2].progress],
-            backgroundColor: ["#F59E0B", "#757881"],
-            borderWidth: 0,
-            cutout: "60%"
-            }]
-        }
-    });
-}
 
 function renderFooter(data) {
     console.log("Rendering footer with data:", data);
@@ -91,12 +50,8 @@ function renderPage(data) {
     if (document.body.dataset.page === "contact") {
         console.log("Contact page detected, rendering contact content");
         renderContact(data);
+        getForm();
     }
-
-    // if (document.body.dataset.page === "contact") {
-        
-    //     renderContact(data);
-    // }
 
     renderFooter(data); 
 }
