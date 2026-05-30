@@ -113,3 +113,13 @@
     fill: var(--half-accent);
     cursor: pointer;
 }
+
+
+
+@media (max-width: 768px) {
+
+    .book-cover {
+        width: 60%;
+        max-width: 320px;
+    }
+}

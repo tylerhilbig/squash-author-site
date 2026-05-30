@@ -36,6 +36,10 @@ main {
     border-radius: var(--border-radius);
 }
 
+.in-progress-title {
+    display: flex;
+}
+
 #progress-list canvas {
     width: 120px !important;
     height: 120px !important;
@@ -55,4 +59,16 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+    .in-progress-title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+    }
 }

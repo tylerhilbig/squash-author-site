@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 .library-desc {
@@ -37,5 +38,24 @@
     padding: var(--spacing-md);
 
     font-size: 1.25rem;
+
+}
+
+
+@media (max-width: 768px) {
+    .book-covers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .library-desc {
+        max-width: 100%;
+        font-size: 1rem;
+    }
+
+    .series {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
 
 }
