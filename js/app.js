@@ -5,22 +5,23 @@ import { renderContact, getForm } from "./contact.js";
 
 console.dir(document);
 
-    document.addEventListener("DOMContentLoaded", async () => {
-    try {
-        const response = await fetch("data/content.json");
-        console.log("Fetch response:", response);
 
-        if (!response.ok) {
-        throw new Error(`Could not load JSON: ${response.status}`);
-        }
+document.addEventListener("DOMContentLoaded", async () => {
+try {
+    const response = await fetch("data/content.json");
+    console.log("Fetch response:", response);
 
-        const data = await response.json();
-        renderPage(data);
-
-    } catch (error) {
-        console.error("Error loading content:", error);
+    if (!response.ok) {
+    throw new Error(`Could not load JSON: ${response.status}`);
     }
-    });
+
+    const data = await response.json();
+    renderPage(data);
+
+} catch (error) {
+    console.error("Error loading content:", error);
+}
+});
 
 
 function renderFooter(data) {

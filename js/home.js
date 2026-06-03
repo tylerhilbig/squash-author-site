@@ -4,6 +4,10 @@ export const renderHome = (data) => {
     // New Release
     document.getElementById("new-release-description").textContent = data.newRelease.description;
 
+    renderFeaturedRelease(data.newRelease);
+
+    const modal = document.querySelector(".modal-close").addEventListener("click", closeModal);
+
     // Books in Progress
     document.getElementById("pie-chart-1").textContent = `${data.booksInProgress[0].progress}%`;
     document.getElementById("in-progress-1").textContent = data.booksInProgress[0].title;
@@ -15,6 +19,35 @@ export const renderHome = (data) => {
     document.getElementById("in-progress-3").textContent = data.booksInProgress[2].title;
 
     console.log("Finished rendering Home page content");
+}
+
+export function renderFeaturedRelease(book) {
+    const featured = document.getElementById("featured-release");
+
+    featured.querySelector("img").src = book.cover;
+    featured.querySelector("img").alt = `${book.title} Cover`
+    featured.querySelector("h2").textContent = book.title;
+    featured.querySelector("p").textContent = book.description;
+
+    featured.addEventListener("click", () => {
+        openModal(book);
+    });
+}
+
+function openModal(book) {
+    document.getElementById("modal-title").textContent = book.title;
+    document.getElementById("modal-summary").textContent = book.description;
+
+
+    const modal = document.getElementById("book-modal");
+    modal.classList.remove("hidden");
+    modal.setAttribute("aria-hidden", "false");
+}
+
+function closeModal(book) {
+    const modal = document.getElementById("book-modal");
+    modal.classList.add("hidden");
+    modal.setAttribute("aria-hidden", "true");
 }
 
 export function generatePieCharts(data) {

@@ -7,67 +7,98 @@
     },
 
     "newRelease": {
-        "description": "A fantasy novel by J.R.R. Tolkein.",
-        "newReleaseCover": ""
+        "title": "Book I: The Brass Directive",
+        "description": "In a sprawling steampunk metropolis where soot chokes the skies and clockwork machinery powers every corner of society, rogue automatons have become a growing menace. When mechanical servants, soldiers, and laborers begin breaking their directives in increasingly violent ways, the city turns to specialized recovery firms willing to take on jobs too dangerous for anyone else. Drake and Sebastian, veteran operatives with very different approaches to survival, work for one such firm. Together they hunt malfunctioning constructs through forgotten factories, underground rail tunnels, and aristocratic estates hiding dangerous secrets. As routine contracts begin revealing a larger conspiracy, the pair find themselves caught between powerful industrial factions, forbidden technology, and a threat that could bring the entire city to ruin",
+        "cover": "assets/images/books/rhythm_of_war_cover.jpg"
     },
 
     "booksInProgress": [
         {
-        "title": "Some book title",
-        "progress": 100
-        },
-        {
-        "title": "Another book title",
+        "title": "The Tales of Drake and Sebastian Book 1",
         "progress": 10
         },
         {
-        "title": "Yet another book title",
-        "progress": 30
+        "title": "Novatas Empire Book 1",
+        "progress": 10
+        },
+        {
+        "title": "Secret Project 1",
+        "progress": 5
         }
     ],
 
     "library": [
     {
-        "title": "A book series title",
-        "description": "An epic fantasy book series about vegetables fighting crime",
+        "title": "The Tales of Drake and Sebastian",
+        "description": "In a sprawling steampunk metropolis where soot chokes the skies and clockwork machinery powers every corner of society, rogue automatons have become a growing menace. When mechanical servants, soldiers, and laborers begin breaking their directives in increasingly violent ways, the city turns to specialized recovery firms willing to take on jobs too dangerous for anyone else. Drake and Sebastian, veteran operatives with very different approaches to survival, work for one such firm. Together they hunt malfunctioning constructs through forgotten factories, underground rail tunnels, and aristocratic estates hiding dangerous secrets. As routine contracts begin revealing a larger conspiracy, the pair find themselves caught between powerful industrial factions, forbidden technology, and a threat that could bring the entire city to ruin.",
         "books": [
-        {
-          "title": "veggie book 1",
-          "coverImage": ""
-        }
+            {
+              "title": "Book I: The Brass Directive",
+              "description": "Drake and Sebastian are assigned to track down a series of rogue automatons responsible for a string of brutal attacks across the industrial district. What begins as a straightforward retrieval contract quickly uncovers evidence that the machines are acting with unprecedented coordination. As they descend into the city's darkest corners, they discover that someone may be deliberately creating the very threats they're being paid to stop.",
+              "cover": "",
+              "buyLink": ""
+            },
+            {
+              "title": "Book II: Smoke Beneath the Gears",
+              "description": "With tensions rising between the city's powerful guilds, reports of increasingly sophisticated automaton uprisings spread across the region. Drake and Sebastian are drawn into a dangerous investigation that leads them through abandoned foundries, hidden laboratories, and the fractured underworld beneath the city streets. As old alliances begin to crack, the two operatives must decide how far they are willing to go to uncover the truth.",
+              "cover": "",
+              "buyLink": ""
+            },
+            {
+              "title": "Book III: The Clockwork Reckoning",
+              "description": "The secrets hidden behind years of rogue automaton incidents finally come to light as the city stands on the brink of collapse. With rival factions vying for control of technology capable of reshaping civilization itself, Drake and Sebastian face their most dangerous mission yet. Outnumbered and hunted from all sides, they must confront the forces responsible for the chaos before the age of steam and steel is consumed by its own creations.",
+              "cover": "",
+              "buyLink": ""
+            }
         ]
     },
     {
-        "title": "A Romance Series",
-        "description": "A story of love, vampires, and forbidden romance.",
+        "title": "Novatas Empire",
+        "description": "For over a thousand years, the Novetas Empire has united hundreds of star systems beneath a single banner, maintaining peace through a delicate balance of political power, ancient tradition, and control of the Astral Gates—mysterious relics left behind by a long-vanished civilization that allow instantaneous travel across the galaxy. To most citizens, the Empire appears eternal. To those within its highest circles, it is quietly unraveling. As rival noble houses compete for influence, frontier worlds demand independence, and forgotten secrets emerge from the depths of unexplored space, a generation of soldiers, scholars, rulers, and revolutionaries find themselves drawn into a conflict that will determine the future of humanity. Ancient records suggest the Astral Gates were never intended to be used as they are, and the truths hidden within the Empire's foundation threaten to shatter everything its people believe about their history. Spanning vast star systems, crumbling megacities, sacred desert worlds, and forgotten regions beyond the mapped frontier, The Novetas Empire is an epic science-fiction saga of political intrigue, ideological conflict, and the burden of power. In a civilization built upon myths carefully preserved for centuries, every victory carries a cost, every faction believes itself justified, and the line between savior and tyrant grows thinner with every passing generation. At its heart, the series explores what happens when a society discovers that the stories holding it together may also be the chains preventing it from moving forward.",
         "books": [
-        {
-          "title": "",
-          "coverImage": ""
-        }
+            {
+              "title": "",
+              "description": "",
+              "cover": "",
+              "buyLink": ""
+            }
       ]
     },
     {
-        "title": "An Educational Book Series",
-        "description": "A series of books designed to educate readers on mythology, history, and science.",
+        "title": "The Lapsus Fables",
+        "description": "A series of books retelling classic fairytales in a dark and sullen",
         "books": [
-        {
-          "title": "",
-          "coverImage": ""
-        }
+            {
+              "title": "Book I: The Shattered Gate",
+              "description": "As political unrest spreads across the Novetas Empire, the discovery of a long-lost Astral Gate reveals evidence that the Empire's official history may be built upon a lie. Ancient secrets begin to surface, drawing powerful factions into a struggle for control of knowledge that was never meant to be uncovered.",
+              "cover": "",
+              "buyLink": ""
+            },
+            {
+              "title": "Book II: The Dying Throne",
+              "description": "The Empire fractures as noble houses, frontier coalitions, and religious orders compete to shape the future of civilization. While war spreads across the stars, the truth behind the Astral Gates grows increasingly difficult to contain, threatening the legitimacy of the very institutions that have governed humanity for centuries.",
+              "cover": "",
+              "buyLink": ""
+            },
+            {
+              "title": "Book III: The Last Dominion",
+              "description": "With the galaxy on the brink of collapse, old enemies and reluctant allies converge for a final confrontation over the future of the Astral Gate network. As long-buried revelations come to light, humanity must decide whether to preserve the Empire that united the stars or embrace an uncertain future beyond its shadow.",
+              "cover": "",
+              "buyLink": ""
+            }
       ]
     }
   ],
 
     "author": {
         "photo": "assets/images/author/josh.jpg",
-        "bio": "Just a goober named Squash who writes books. I like to write about vegetables fighting crime."
+        "bio": "Josh has always been interested in telling stories, from the myths of epics"
     },
 
     "qa": [
       {
-          "question": "Do you like ice cream?",
-          "answer": "no way, I'm a vegetable!"
+          "question": "What inspired you to become a writer?",
+          "answer": "Of course!"
       },
       {
           "question": "What is your favorite vegetable?",
