@@ -9,7 +9,8 @@
     "newRelease": {
         "title": "Book I: The Brass Directive",
         "description": "In a sprawling steampunk metropolis where soot chokes the skies and clockwork machinery powers every corner of society, rogue automatons have become a growing menace. When mechanical servants, soldiers, and laborers begin breaking their directives in increasingly violent ways, the city turns to specialized recovery firms willing to take on jobs too dangerous for anyone else. Drake and Sebastian, veteran operatives with very different approaches to survival, work for one such firm. Together they hunt malfunctioning constructs through forgotten factories, underground rail tunnels, and aristocratic estates hiding dangerous secrets. As routine contracts begin revealing a larger conspiracy, the pair find themselves caught between powerful industrial factions, forbidden technology, and a threat that could bring the entire city to ruin",
-        "cover": "assets/images/books/rhythm_of_war_cover.jpg"
+        "cover": "assets/images/books/rhythm_of_war_cover.jpg",
+        "buyLink": ""
     },
 
     "booksInProgress": [
@@ -35,19 +36,19 @@
             {
               "title": "Book I: The Brass Directive",
               "description": "Drake and Sebastian are assigned to track down a series of rogue automatons responsible for a string of brutal attacks across the industrial district. What begins as a straightforward retrieval contract quickly uncovers evidence that the machines are acting with unprecedented coordination. As they descend into the city's darkest corners, they discover that someone may be deliberately creating the very threats they're being paid to stop.",
-              "cover": "",
+              "cover": "assets/images/books/the_lightning_thief_cover.jpg",
               "buyLink": ""
             },
             {
               "title": "Book II: Smoke Beneath the Gears",
               "description": "With tensions rising between the city's powerful guilds, reports of increasingly sophisticated automaton uprisings spread across the region. Drake and Sebastian are drawn into a dangerous investigation that leads them through abandoned foundries, hidden laboratories, and the fractured underworld beneath the city streets. As old alliances begin to crack, the two operatives must decide how far they are willing to go to uncover the truth.",
-              "cover": "",
+              "cover": "assets/images/books/the_lightning_thief_cover.jpg",
               "buyLink": ""
             },
             {
               "title": "Book III: The Clockwork Reckoning",
               "description": "The secrets hidden behind years of rogue automaton incidents finally come to light as the city stands on the brink of collapse. With rival factions vying for control of technology capable of reshaping civilization itself, Drake and Sebastian face their most dangerous mission yet. Outnumbered and hunted from all sides, they must confront the forces responsible for the chaos before the age of steam and steel is consumed by its own creations.",
-              "cover": "",
+              "cover": "assets/images/books/the_lightning_thief_cover.jpg",
               "buyLink": ""
             }
         ]
@@ -57,9 +58,9 @@
         "description": "For over a thousand years, the Novetas Empire has united hundreds of star systems beneath a single banner, maintaining peace through a delicate balance of political power, ancient tradition, and control of the Astral Gates—mysterious relics left behind by a long-vanished civilization that allow instantaneous travel across the galaxy. To most citizens, the Empire appears eternal. To those within its highest circles, it is quietly unraveling. As rival noble houses compete for influence, frontier worlds demand independence, and forgotten secrets emerge from the depths of unexplored space, a generation of soldiers, scholars, rulers, and revolutionaries find themselves drawn into a conflict that will determine the future of humanity. Ancient records suggest the Astral Gates were never intended to be used as they are, and the truths hidden within the Empire's foundation threaten to shatter everything its people believe about their history. Spanning vast star systems, crumbling megacities, sacred desert worlds, and forgotten regions beyond the mapped frontier, The Novetas Empire is an epic science-fiction saga of political intrigue, ideological conflict, and the burden of power. In a civilization built upon myths carefully preserved for centuries, every victory carries a cost, every faction believes itself justified, and the line between savior and tyrant grows thinner with every passing generation. At its heart, the series explores what happens when a society discovers that the stories holding it together may also be the chains preventing it from moving forward.",
         "books": [
             {
-              "title": "",
+              "title": "Book I: A Glitch in the Stars",
               "description": "",
-              "cover": "",
+              "cover": "assets/images/books/oathbringer_cover.jpg",
               "buyLink": ""
             }
       ]

@@ -21,7 +21,7 @@ export const renderHome = (data) => {
     console.log("Finished rendering Home page content");
 }
 
-export function renderFeaturedRelease(book) {
+function renderFeaturedRelease(book) {
     const featured = document.getElementById("featured-release");
 
     featured.querySelector("img").src = book.cover;
@@ -38,6 +38,9 @@ function openModal(book) {
     document.getElementById("modal-title").textContent = book.title;
     document.getElementById("modal-summary").textContent = book.description;
 
+    if (book.buyLink === "") {
+        document.getElementById("modal-buy-link").textContent = "Coming Soon";
+    }
 
     const modal = document.getElementById("book-modal");
     modal.classList.remove("hidden");

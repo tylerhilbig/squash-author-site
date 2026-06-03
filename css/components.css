@@ -137,12 +137,13 @@
 }
 
 .buy-btn {
-    width: 25%;
+    width: 20%;
     font-size: 1.25rem;
     background-color: var(--accent);
     color: var(--text-primary);
     border-radius: var(--border-radius);
     padding: var(--spacing-sm);
+    margin-top: var(--spacing-md);
 }
 
 .buy-btn:hover {
