@@ -91,27 +91,55 @@
     }
   ],
 
-    "author": {
-        "photo": "assets/images/author/josh.jpg",
-        "bio": "Josh has always been interested in telling stories, from the myths of epics"
+  "shortStoriesSubTitle": "Welcome to the Short Stories section!",
+  "shortStories": [
+    {
+        "title": "The Cursed Coin",
+        "description": "A mysterious coin that brings misfortune to its owner.",
+        "content": "The coin was found in an old shop, and from the moment it was purchased, the owner began to experience a series of unfortunate events.",
+        "image": ""
     },
-
-    "qa": [
-      {
-          "question": "What inspired you to become a writer?",
-          "answer": "Of course!"
-      },
-      {
-          "question": "What is your favorite vegetable?",
-          "answer": "Squash, of course!"
-      },
-      {
-          "question": "What is your favorite book?",
-          "answer": "The Hobbit by J.R.R. Tolkein."
-      }
-    ],
-
-    "contact": {
-      "description": "Please send me a message bro, I want to hear from you! And you should buy my books too, they are really good!"
+    {
+        "title": "The Last Ember",
+        "description": "In a world where fire is dying, a young person discovers the secret to saving it.",
+        "content": "",
+        "image": ""
+    },
+    {
+        "title": "The Silent Forest",
+        "description": "A group of travelers enters a forest where no sound can be heard.",
+        "content": "",
+        "image": ""
+    },
+    {
+        "title": "The Tooth Monger",
+        "description": "A dark take on the children's story of the Tooth Fairy.",
+        "content": "assets/shortStories/theToothMonger.md",
+        "image": ""
     }
+  ],
+
+  "author": {
+      "photo": "assets/images/author/josh.jpg",
+      "bio": "Josh has always been interested in telling stories, from the myths of epics"
+  },
+
+  "qa": [
+    {
+        "question": "What inspired you to become a writer?",
+        "answer": "Of course!"
+    },
+    {
+        "question": "What is your favorite vegetable?",
+        "answer": "Squash, of course!"
+    },
+    {
+        "question": "What is your favorite book?",
+        "answer": "The Hobbit by J.R.R. Tolkein."
+    }
+  ],
+
+  "contact": {
+    "description": "Please send me a message bro, I want to hear from you! And you should buy my books too, they are really good!"
+  }
 }

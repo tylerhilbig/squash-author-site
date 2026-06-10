@@ -50,6 +50,12 @@
     margin: 1rem;
 }
 
+.subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
 /* Books */
 .book-cover {
     width: 100%;

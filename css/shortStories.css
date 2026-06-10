@@ -1,0 +1,27 @@
+.short-stories {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    width: 75vw;
+    height: auto;
+
+    gap: var(--spacing-lg);
+
+    margin: var(--spacing-lg) auto;
+    border-radius: var(--border-radius);
+
+    background-color: var(--bg-secondary);
+}
+
+.short-story {
+    font-size: 1.25rem;
+    padding: var(--spacing-md);
+
+}
+
+.short-story:hover {
+    background-color: var(--bg-secondary-hover);
+     border-radius: var(--border-radius);
+     cursor: pointer;
+}

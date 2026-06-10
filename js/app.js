@@ -1,5 +1,6 @@
 import { renderHome, generatePieCharts } from "./home.js";
 import { renderBooks } from "./books.js";
+import { renderShortStories } from "./shortStories.js";
 import { renderAbout } from "./about.js";
 import { renderContact, getForm } from "./contact.js";
 
@@ -42,6 +43,10 @@ function renderPage(data) {
 
     if (document.body.dataset.page === "books") {
         renderBooks(data);
+    }
+
+    if (document.body.dataset.page === "short-stories") {
+        renderShortStories(data);
     }
 
     if (document.body.dataset.page === "about") {
