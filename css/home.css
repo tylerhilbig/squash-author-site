@@ -36,8 +36,26 @@ main {
     border-radius: var(--border-radius);
 }
 
-.in-progress-title {
+#progress-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--spacing-lg);
+    /* justify-items: center; */
+}
+
+#progress-list li {
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.in-progress-title {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    padding: var(--spacing-md) 0;
 }
 
 #progress-list canvas {
